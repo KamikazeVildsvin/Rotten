@@ -1,3 +1,5 @@
 *backup*
 *.lck
 *fp-info-cache
+*DS_store
+*production*
