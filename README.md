@@ -3,6 +3,10 @@ This repository contains the KiCad files for a DIY clone of the classic Pro Co R
 The schematic is an implementation of the one found on [ElectroSmash](https://www.electrosmash.com/proco-rat), so a big shout-out to them.
 The article on [ElectroSmash](https://www.electrosmash.com/proco-rat) has a great description of the functionality of the circuit.
 
+## Interactive BOM
+An [interactive HTML BOM](https://html-preview.github.io/?url=https://github.com/KamikazeVildsvin/Rotten/blob/master/PCB/Rotten/bom/ibom.html) can be found in the `PCB/Rotten/bom` directory.
+This can be used as a tool to easier populate the PCB.
+
 ## REV1 Images
 ### Schematic
 ![Schematic Image](images/rev1-schematic.png)
