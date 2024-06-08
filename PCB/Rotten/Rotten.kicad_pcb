@@ -2450,7 +2450,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C10"
-			(at 1 -3.75 360)
+			(at 1 -3.75 0)
 			(layer "F.SilkS")
 			(uuid "6ff48286-f419-4c52-9eac-255bdf30eae8")
 			(effects
@@ -2461,7 +2461,7 @@
 			)
 		)
 		(property "Value" "4.7µF"
-			(at 1 3.75 360)
+			(at 1 3.75 0)
 			(layer "F.SilkS")
 			(uuid "d5f1e31c-7758-43d0-b5c9-4be22649cdb9")
 			(effects
@@ -3759,7 +3759,7 @@
 			(uuid "787665e5-e849-4cc2-b204-1465c1469f3a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1 0 360)
+			(at 1 0 0)
 			(layer "F.Fab")
 			(uuid "cb1ac9ef-10c3-4a96-a653-9a58f63898fc")
 			(effects
@@ -3830,7 +3830,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2"
-			(at 3.81 2.54 360)
+			(at 3.81 2.54 0)
 			(layer "F.SilkS")
 			(uuid "7367adb1-7519-43c3-8767-08ca1f4a98dc")
 			(effects
@@ -3841,7 +3841,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 3.81 0 360)
+			(at 3.81 0 0)
 			(layer "F.SilkS")
 			(uuid "8ba4f0f3-593a-43cc-a5e1-71212738774c")
 			(effects
@@ -4056,7 +4056,7 @@
 			(uuid "fcb5bf50-a51f-4865-8d09-6447b79d89b1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 360)
+			(at 3.81 0 0)
 			(layer "F.Fab")
 			(uuid "774fa521-c018-4cd1-8e46-07b5a5932557")
 			(effects
@@ -4423,7 +4423,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4002"
+		(property "Value" "1N4148"
 			(at 5.08 0 90)
 			(layer "F.SilkS")
 			(uuid "d9638a81-9304-46d6-9e3d-ed9f6f2a1726")
@@ -4912,7 +4912,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C6"
-			(at -2.62 0 360)
+			(at -2.62 0 0)
 			(layer "F.SilkS")
 			(uuid "66f37387-3718-45c8-b347-11a6502f4deb")
 			(effects
@@ -4923,7 +4923,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.SilkS")
 			(uuid "c79dedf3-4db6-4f18-a8e0-5cfdfd90c0d6")
 			(effects
@@ -5118,7 +5118,7 @@
 			(uuid "332fec5c-5fa5-4485-884a-468772024799")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "48edade2-d827-4707-8b03-3b9fdc7d2afa")
 			(effects
@@ -5189,7 +5189,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R11"
-			(at 3.81 2.413 360)
+			(at 3.81 2.413 0)
 			(layer "F.SilkS")
 			(uuid "6a20206b-51cb-4e3f-a857-58c7ad4d51bb")
 			(effects
@@ -5200,7 +5200,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 3.81 0 360)
+			(at 3.81 0 0)
 			(layer "F.SilkS")
 			(uuid "f8e5d59b-727e-49c4-9de6-db273073ade3")
 			(effects
@@ -5415,7 +5415,7 @@
 			(uuid "e26827aa-03ef-4a81-aa70-f8c8476e5d40")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 360)
+			(at 3.81 0 0)
 			(layer "F.Fab")
 			(uuid "0c9548b6-221b-48e5-af65-1510c3faa06e")
 			(effects
@@ -5707,7 +5707,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C7"
-			(at -2.58 0 360)
+			(at -2.58 0 0)
 			(layer "F.SilkS")
 			(uuid "790545c4-becd-425a-93b9-bae5847ee7dc")
 			(effects
@@ -5718,7 +5718,7 @@
 			)
 		)
 		(property "Value" "30pF"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.SilkS")
 			(uuid "388cf05d-acd7-4278-b883-27bade8a1345")
 			(effects
@@ -5913,7 +5913,7 @@
 			(uuid "9f9e0e15-0ef7-4c69-93a8-73433b3d9d3a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "ef1bf8d0-bc33-4ee7-97e0-5c3c421dbbb7")
 			(effects
@@ -7914,7 +7914,7 @@
 			)
 		)
 		(property "Value" "100k-A"
-			(at 2.54 2.54 360)
+			(at 2.54 2.54 0)
 			(layer "F.SilkS")
 			(uuid "23b3f239-91ef-4ca0-aee8-9509d9da70eb")
 			(effects
@@ -8119,7 +8119,7 @@
 			(uuid "4716f970-6d2f-4f1e-86bd-1cba18ab77a8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 360)
+			(at 0 2.54 0)
 			(layer "F.Fab")
 			(uuid "0e65783e-1788-4b5a-b456-b69206d5ea58")
 			(effects
@@ -8181,7 +8181,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C11"
-			(at 2.5 -2.2 360)
+			(at 2.5 -2.2 0)
 			(layer "F.SilkS")
 			(uuid "84716a50-e74d-428b-8a0e-aded868f1bce")
 			(effects
@@ -8192,7 +8192,7 @@
 			)
 		)
 		(property "Value" "3.3nF"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.SilkS")
 			(uuid "8b618cbe-9469-469b-a027-88c560eeddb7")
 			(effects
@@ -8387,7 +8387,7 @@
 			(uuid "bf161bee-a5ba-463c-90b6-f4e5e0e9d38f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "1e942da6-b03e-440d-8cc3-de3228b87270")
 			(effects
@@ -9575,7 +9575,7 @@
 		(descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
 		(tags "LED diameter 5.0mm 2 pins")
 		(property "Reference" "D4"
-			(at 1.27 -3.96 360)
+			(at 1.27 -3.96 0)
 			(layer "F.SilkS")
 			(uuid "1010b391-4fa9-48b5-ae8a-37b0dd05e33a")
 			(effects
@@ -9756,7 +9756,7 @@
 			(uuid "0fe68759-7b93-4671-85aa-2070aab4bda4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 360)
+			(at 1.25 0 0)
 			(layer "F.Fab")
 			(uuid "1fb4da18-980b-4c6d-8bfd-0c16885d779a")
 			(effects
@@ -9818,7 +9818,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J3"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "d29d2478-7b1c-4a0b-b80a-87658d910a75")
 			(effects
@@ -9829,7 +9829,7 @@
 			)
 		)
 		(property "Value" "JACK OUTPUT"
-			(at 0 4.87 360)
+			(at 0 4.87 0)
 			(layer "F.Fab")
 			(uuid "3ab41f6b-b2b8-42ae-b858-ead8a5e05172")
 			(effects
@@ -10382,7 +10382,7 @@
 			)
 		)
 		(property "Value" "Jack-DC"
-			(at 2.413 1.27 360)
+			(at 2.413 1.27 0)
 			(layer "F.SilkS")
 			(uuid "bf0b2775-1f48-46cb-9981-22a14e107e7e")
 			(effects
@@ -10587,7 +10587,7 @@
 			(uuid "10b8b483-ce58-4dbf-98f9-aa46f9a8c32b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.27 360)
+			(at 0 1.27 0)
 			(layer "F.Fab")
 			(uuid "b2c87855-832e-4d1c-b980-7ddfeddc083d")
 			(effects
@@ -12186,7 +12186,7 @@
 			)
 		)
 		(property "Value" "FOOTSWITCH"
-			(at -2.54 6.35 360)
+			(at -2.54 6.35 0)
 			(layer "F.SilkS")
 			(uuid "b5056a77-8a20-4e13-8a5d-885ed9cb50c2")
 			(effects
@@ -12391,7 +12391,7 @@
 			(uuid "927ce569-a946-491a-882a-c93ce42e51f9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 6.35 360)
+			(at 0 6.35 0)
 			(layer "F.Fab")
 			(uuid "f1871add-aa81-4c01-b6c0-f0307010be0b")
 			(effects
@@ -12519,7 +12519,7 @@
 			)
 		)
 		(property "Value" "100k-A"
-			(at 2.54 2.54 360)
+			(at 2.54 2.54 0)
 			(layer "F.SilkS")
 			(uuid "e7893325-36ab-4dae-9835-602b29e28c7f")
 			(effects
@@ -12724,7 +12724,7 @@
 			(uuid "302cbe81-c414-49f1-b49f-5bcec84e82e5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 360)
+			(at 0 2.54 0)
 			(layer "F.Fab")
 			(uuid "3ec9c586-3bcd-4cb6-ab89-db590a0cbb29")
 			(effects
@@ -14177,7 +14177,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C3"
-			(at 1 -3.75 360)
+			(at 1 -3.75 0)
 			(layer "F.SilkS")
 			(uuid "15a89826-bd45-466e-901e-50c2f1314a16")
 			(effects
@@ -14188,7 +14188,7 @@
 			)
 		)
 		(property "Value" "1µF"
-			(at 1 3.75 360)
+			(at 1 3.75 0)
 			(layer "F.SilkS")
 			(uuid "8f387abf-56e8-4c32-ae0b-e8cd76537358")
 			(effects
@@ -15486,7 +15486,7 @@
 			(uuid "f4a2ba88-710e-4ff9-98f3-4a32a3cd7f48")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1 0 360)
+			(at 1 0 0)
 			(layer "F.Fab")
 			(uuid "a17fe6b7-1adc-479a-a1ef-b586ed043242")
 			(effects
@@ -16254,7 +16254,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R10"
-			(at 3.81 -2.37 360)
+			(at 3.81 -2.37 0)
 			(layer "F.SilkS")
 			(uuid "6260be1e-2408-4fa9-b6c8-191c3a087a47")
 			(effects
@@ -16265,7 +16265,7 @@
 			)
 		)
 		(property "Value" "1k5"
-			(at 3.81 0 360)
+			(at 3.81 0 0)
 			(layer "F.SilkS")
 			(uuid "6f35178e-b360-4434-b149-37011e6df4f4")
 			(effects
@@ -16480,7 +16480,7 @@
 			(uuid "ff23b5af-1803-4005-a7b5-3e2c4d7445bb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 360)
+			(at 3.81 0 0)
 			(layer "F.Fab")
 			(uuid "325c0684-f25a-4dd9-9a0f-90b7a120b8e3")
 			(effects
@@ -16961,7 +16961,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4002"
+		(property "Value" "1N4148"
 			(at 5.08 0 90)
 			(layer "F.SilkS")
 			(uuid "d6cf4696-fe12-474f-a8b0-341cf104e21e")
@@ -17336,7 +17336,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C12"
-			(at 2.46 2.159 360)
+			(at 2.46 2.159 0)
 			(layer "F.SilkS")
 			(uuid "f318ceb0-8478-42d6-b1e0-fd0896aaebed")
 			(effects
@@ -17347,7 +17347,7 @@
 			)
 		)
 		(property "Value" "22nF"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.SilkS")
 			(uuid "f8bd2190-8b16-48b8-9873-cb16e6e1befc")
 			(effects
@@ -17542,7 +17542,7 @@
 			(uuid "bbbdee0e-3c0c-4be0-aebe-fabbdd604716")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "d63a203a-91a7-474c-8fa0-98ca19b1f2b2")
 			(effects
@@ -18115,7 +18115,7 @@
 			(uuid "3d43fa53-4a34-44af-84d6-51d712794050")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 360)
+			(at 0 2.54 0)
 			(layer "F.Fab")
 			(uuid "e35f0fde-a0da-4ca2-b257-1f9985589969")
 			(effects
@@ -23198,6 +23198,42 @@
 		)
 	)
 	(zone
+		(net 18)
+		(net_name "Net-(D2-K)")
+		(layer "F.Cu")
+		(uuid "7c9969b7-b120-4748-b31f-0e9adb842aee")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 138.14 65.967) (xy 138.14 66.367) (xy 139.794703 67.167) (xy 140.241 66.167) (xy 139.794703 65.167)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 138.14 65.967) (xy 138.14 66.367) (xy 139.794703 67.167) (xy 140.241 66.167) (xy 139.794703 65.167)
+			)
+		)
+	)
+	(zone
 		(net 6)
 		(net_name "Net-(C10-Pad1)")
 		(layer "F.Cu")
@@ -23559,45 +23595,6 @@
 		(net 18)
 		(net_name "Net-(D2-K)")
 		(layer "F.Cu")
-		(uuid "a849e46e-de61-4016-9b3f-c78e7b4c695f")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30003)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 134.33 65.967) (xy 134.33 66.367) (xy 135.33 67.167) (xy 136.431 66.167) (xy 135.33 65.167)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 135.337384 65.173707) (xy 136.421464 66.158339) (xy 136.425285 66.166438) (xy 136.422259 66.174866)
-				(xy 136.421464 66.175661) (xy 135.337384 67.160292) (xy 135.328956 67.163318) (xy 135.322209 67.160767)
-				(xy 134.334391 66.370512) (xy 134.330072 66.362668) (xy 134.33 66.361376) (xy 134.33 65.972623)
-				(xy 134.333427 65.96435) (xy 134.334391 65.963487) (xy 135.32221 65.173231) (xy 135.33081 65.17074)
-			)
-		)
-	)
-	(zone
-		(net 18)
-		(net_name "Net-(D2-K)")
-		(layer "F.Cu")
 		(uuid "a8502d78-ce1a-4be9-8169-8092c3c1b91f")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
@@ -23910,6 +23907,42 @@
 				(xy 118.942525 60.092439) (xy 118.940033 60.096129) (xy 118.668129 60.368033) (xy 118.659856 60.37146)
 				(xy 118.655485 60.370613) (xy 117.287667 59.819707) (xy 117.281273 59.813437) (xy 117.281185 59.804483)
 				(xy 117.281224 59.804388) (xy 117.599438 59.033783) (xy 117.605759 59.027448) (xy 118.376388 58.709224)
+			)
+		)
+	)
+	(zone
+		(net 18)
+		(net_name "Net-(D2-K)")
+		(layer "F.Cu")
+		(uuid "c71ab146-a174-42f2-8792-5de55e766421")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30002)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 138.53 66.367) (xy 138.53 65.967) (xy 137.53 65.167) (xy 136.429 66.167) (xy 137.53 67.167)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 138.53 66.367) (xy 138.53 65.967) (xy 137.53 65.167) (xy 136.429 66.167) (xy 137.53 67.167)
 			)
 		)
 	)
@@ -24431,46 +24464,6 @@
 		)
 	)
 	(zone
-		(net 18)
-		(net_name "Net-(D2-K)")
-		(layer "F.Cu")
-		(uuid "eee9b45a-7333-4e83-8742-a723703c72b8")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30001)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 138.14 65.967) (xy 138.14 66.367) (xy 139.794703 67.167) (xy 140.241 66.167) (xy 139.794703 65.167)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 139.799469 65.177691) (xy 139.799619 65.178016) (xy 140.238872 66.162232) (xy 140.239115 66.171183)
-				(xy 140.238872 66.171768) (xy 139.799619 67.155983) (xy 139.793118 67.162142) (xy 139.784167 67.161899)
-				(xy 139.783842 67.161749) (xy 138.146607 66.370194) (xy 138.140651 66.363507) (xy 138.14 66.35966)
-				(xy 138.14 65.974339) (xy 138.143427 65.966066) (xy 138.146603 65.963807) (xy 139.783844 65.172249)
-				(xy 139.792782 65.171735)
-			)
-		)
-	)
-	(zone
 		(net 6)
 		(net_name "Net-(C10-Pad1)")
 		(layer "F.Cu")
@@ -24594,10 +24587,10 @@
 		(net 18)
 		(net_name "Net-(D2-K)")
 		(layer "F.Cu")
-		(uuid "fe2b1fa0-2bda-4899-8884-733a9d749c31")
+		(uuid "fbe696da-4114-458a-a6ae-35a76e01bc33")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
-		(priority 30002)
+		(priority 30001)
 		(attr
 			(teardrop
 				(type padvia)
@@ -24616,17 +24609,13 @@
 		)
 		(polygon
 			(pts
-				(xy 138.53 66.367) (xy 138.53 65.967) (xy 137.53 65.167) (xy 136.429 66.167) (xy 137.53 67.167)
+				(xy 134.33 65.967) (xy 134.33 66.367) (xy 135.33 67.167) (xy 136.431 66.167) (xy 135.33 65.167)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 137.53779 65.173232) (xy 138.525609 65.963487) (xy 138.529928 65.971331) (xy 138.53 65.972623)
-				(xy 138.53 66.361376) (xy 138.526573 66.369649) (xy 138.525609 66.370512) (xy 137.53779 67.160767)
-				(xy 137.529189 67.163259) (xy 137.522615 67.160292) (xy 137.088641 66.766129) (xy 136.438534 66.175659)
-				(xy 136.434714 66.167562) (xy 136.43774 66.159134) (xy 136.438527 66.158346) (xy 137.522615 65.173706)
-				(xy 137.531043 65.170681)
+				(xy 134.33 65.967) (xy 134.33 66.367) (xy 135.33 67.167) (xy 136.431 66.167) (xy 135.33 65.167)
 			)
 		)
 	)

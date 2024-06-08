@@ -4220,7 +4220,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4002"
+		(property "Value" "1N4148"
 			(at 138.43 88.8999 90)
 			(effects
 				(font
@@ -7375,7 +7375,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4002"
+		(property "Value" "1N4148"
 			(at 152.4 88.8999 90)
 			(effects
 				(font
