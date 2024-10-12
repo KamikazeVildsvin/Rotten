@@ -22,9 +22,13 @@ This can be used as a tool to easier populate the PCB.
 ![PCB 3D Model](images/rev1-3dmodel.png)
 ![PCB 3D Model Sideview](images/rev1-3dmodel-sideview.png)
 
-## True Bypass Wiring
-You will need a 3PDT type switch in order to wire things correctly. The six connections on the PCB needs to be wired to the switch in the following way:
+# Footswitch - True Bypass Wiring
+You will need a 3PDT type switch in order to wire things correctly. 
+The six connections on the PCB needs to be wired to the switch as indicated by the image below.
 
 ![True Bypass Wiring](images/true-bypass-wiring.png)
+*source: https://support.banzaimusic.com/article/53-true-bypass-switch-wiring*
 
-You can use the interactive BOM above to better see what connection on the PCB matches the correct pin on the footswitch.
+I would recommend that you use the interactive BOM above to see what connection on the PCB matches the correct pin on the footswitch, since the silkscreen is very small and probably not readable on the actual physical PCB.
+
+*NOTE*: If you don't want to use the LED indicator, you can disregard the **GROUND** and **LED** connections on the footswitch and don't solder these connections to the PCB.
