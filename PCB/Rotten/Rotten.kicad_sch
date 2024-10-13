@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Rotten")
-		(date "2024-06-06")
-		(rev "1")
+		(date "2024-10-13")
+		(rev "2")
 		(company "Kromftronics")
 	)
 	(lib_symbols
@@ -1972,8 +1972,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "Q1"
+				(at 5.08 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1981,8 +1981,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N3819"
-				(at 5.08 0 0)
+			(property "Value" "2N5458"
+				(at 5.08 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2130,10 +2130,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2148,10 +2148,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "S"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3125,7 +3125,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 175.26) (xy 157.48 177.8)
+			(xy 157.48 175.26) (xy 157.48 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3803,7 +3803,7 @@
 	)
 	(text "Bypass Indicator \nLED"
 		(exclude_from_sim no)
-		(at 158.75 147.828 0)
+		(at 157.48 144.018 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3911,13 +3911,13 @@
 		(uuid "7bfbe331-c1ed-49c9-a0df-fd75272b577f")
 	)
 	(label "LED"
-		(at 157.48 153.67 0)
+		(at 157.48 180.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify bottom)
+			(justify left bottom)
 		)
 		(uuid "7e5a7f00-35c7-4a19-aecf-aa5fb9ecf8c9")
 	)
@@ -4619,72 +4619,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 157.48 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18ca7421-6907-4501-9248-b5a456cb7a87")
-		(property "Reference" "#PWR023"
-			(at 157.48 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31348de2-e7c7-4579-9cd0-e9ffab1c8e02")
-		)
-		(instances
-			(project ""
-				(path "/74bcc4c2-412b-4e26-8446-f18c8acef263"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 185.42 78.74 90)
 		(unit 1)
@@ -4746,6 +4680,72 @@
 			(project "Rotten"
 				(path "/74bcc4c2-412b-4e26-8446-f18c8acef263"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 157.48 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dc8af74-a7c9-4b7a-bff8-e0fe410e7bea")
+		(property "Reference" "#PWR023"
+			(at 157.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 157.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 157.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8ee057a-5ab8-4e35-8e77-169dea89f4e3")
+		)
+		(instances
+			(project "Rotten"
+				(path "/74bcc4c2-412b-4e26-8446-f18c8acef263"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4884,6 +4884,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 250.19 96.52 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4891,7 +4892,7 @@
 		(dnp no)
 		(uuid "2462ae2e-c15b-4536-808e-39d6ba7d39c8")
 		(property "Reference" "RV3"
-			(at 254.762 89.662 0)
+			(at 255.524 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4899,7 +4900,7 @@
 			)
 		)
 		(property "Value" "100k-A"
-			(at 254.762 92.202 0)
+			(at 255.778 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,7 +6093,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 95.25 34.29 90)
+		(at 95.25 34.29 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
