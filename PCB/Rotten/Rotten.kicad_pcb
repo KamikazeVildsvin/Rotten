@@ -10,7 +10,7 @@
 	(title_block
 		(title "Rotten")
 		(date "2024-10-13")
-		(rev "2")
+		(rev "2.0")
 		(company "Kromftronics")
 	)
 	(layers
@@ -19069,12 +19069,12 @@
 		)
 	)
 	(gr_text "VIN"
-		(at 135.89 107.696 0)
+		(at 135.89 107.95 0)
 		(layer "F.SilkS")
 		(uuid "18b50ef5-1519-4495-aa58-0ee051c0d70a")
 		(effects
 			(font
-				(size 0.5 0.5)
+				(size 0.7 0.7)
 				(thickness 0.1)
 				(bold yes)
 			)
@@ -19157,12 +19157,12 @@
 		)
 	)
 	(gr_text "GND"
-		(at 133.35 103.886 0)
+		(at 133.35 103.632 0)
 		(layer "F.SilkS")
 		(uuid "3b688551-9410-4544-ac56-518460888e17")
 		(effects
 			(font
-				(size 0.5 0.5)
+				(size 0.7 0.7)
 				(thickness 0.1)
 				(bold yes)
 			)
@@ -19182,12 +19182,12 @@
 		)
 	)
 	(gr_text "FX_IN"
-		(at 140.97 107.696 0)
+		(at 140.97 107.95 0)
 		(layer "F.SilkS")
 		(uuid "3e79ca0f-6644-42dc-9c67-f11675d7d9d0")
 		(effects
 			(font
-				(size 0.5 0.5)
+				(size 0.7 0.7)
 				(thickness 0.1)
 				(bold yes)
 			)
@@ -19195,12 +19195,12 @@
 		)
 	)
 	(gr_text "VOUT"
-		(at 138.43 103.886 0)
+		(at 138.43 103.632 0)
 		(layer "F.SilkS")
 		(uuid "546d72bc-a8fe-4c11-a8f1-dd09ab266f44")
 		(effects
 			(font
-				(size 0.5 0.5)
+				(size 0.7 0.7)
 				(thickness 0.1)
 				(bold yes)
 			)
@@ -19245,12 +19245,12 @@
 		)
 	)
 	(gr_text "LED"
-		(at 146.05 107.696 0)
+		(at 146.05 107.95 0)
 		(layer "F.SilkS")
 		(uuid "6ed050a3-6a83-4d80-9fe4-c6d07ea63618")
 		(effects
 			(font
-				(size 0.5 0.5)
+				(size 0.7 0.7)
 				(thickness 0.1)
 				(bold yes)
 			)
@@ -19282,8 +19282,8 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "ROTTEN // REV2\nKromftronics 2024\n"
-		(at 136.906 114.3 0)
+	(gr_text "ROTTEN // REV${REVISION}\n${COMPANY} ${ISSUE_DATE}\n"
+		(at 142.621 114.3 0)
 		(layer "F.SilkS")
 		(uuid "7d125466-6bb7-4685-8782-c1379d36110a")
 		(effects
@@ -19292,7 +19292,7 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify bottom)
+			(justify right bottom)
 		)
 	)
 	(gr_text "Volume"
@@ -19381,12 +19381,12 @@
 		)
 	)
 	(gr_text "FX_OUT"
-		(at 143.51 103.886 0)
+		(at 143.51 103.632 0)
 		(layer "F.SilkS")
 		(uuid "e9b892c3-b119-4950-827e-fa66544136f6")
 		(effects
 			(font
-				(size 0.5 0.5)
+				(size 0.7 0.7)
 				(thickness 0.1)
 				(bold yes)
 			)
